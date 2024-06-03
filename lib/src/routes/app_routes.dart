@@ -1,4 +1,5 @@
 import 'package:delivery_app/src/screens/home_screen.dart';
+import 'package:delivery_app/src/screens/product_detail_screen.dart';
 import 'package:delivery_app/src/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -7,6 +8,7 @@ class AppRoutes {
     return {
       '/': (context) => const SplashScreen(),
       '/home': (context) => const HomeScreen(),
+      '/product_detail': (context) => const ProductDetailScreen(),
     };
   }
 }
